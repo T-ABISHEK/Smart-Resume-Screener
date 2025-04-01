@@ -9,7 +9,7 @@ Smart Resume Screener is an AI-powered tool that compares a candidate's resume w
 - Built with LangChain, FAISS, and OpenAI's LLM
 - Streamlit UI for easy use
 
-  🧰 Tech Stack
+🧰 Tech Stack
 
 - **Python 3.10+**
 - **LangChain** for LLM chains and embeddings
