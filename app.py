@@ -29,8 +29,5 @@ if st.button("Analyze Resume"):
             similar = get_similarity_score(resume_text, jd_text)
             result = analyze_fit(resume_text, jd_text)
 
-        st.subheader("🔍 Similar Resume Chunk")
-        st.write(similar)
-
         st.subheader("📊 LLM Analysis")
-        st.json(result)
+        st.json(result.content)
